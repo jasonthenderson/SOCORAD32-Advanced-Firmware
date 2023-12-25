@@ -322,6 +322,7 @@ void uiBootScreenLoad(uint16_t delayms)
 	readChannelInfo();//read from eeprom
 		
 	gVolume = 5;
+	gVox = 8;
 
 	getChannelInfo(gChannelNum);	
 
